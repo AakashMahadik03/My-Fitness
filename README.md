@@ -28,12 +28,14 @@ To get started with this project locally, follow these steps:
 
 1. Clone this repository to your local machine:
    ```sh
-   git clone https://github.com/yourusername/gym-website.git
+   git clone https://github.com/AakashMahadik03/My-Fitness.git
 
 
 2.Navigate to the project directory:
 Copy code
+
 cd gym-website
+
 Open the index.html file in your web browser or set up a local web server to serve the website.
 
 ## Usage
