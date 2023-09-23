@@ -1,0 +1,117 @@
+/* CSS for the TestimonialSlider component */
+
+.testimonial-slider {
+    width: 80%;
+    height: 100%;
+    border-radius: 25px;
+    background-color: wheat;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+  }
+  
+  .testimonial {
+    background-color: #fff;
+    width: 80%;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.767);
+    max-width: 600px;
+    margin: 1em;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .testimonial img.testimonial-avatar {
+    width: 80px; /* Adjust the width to your preference */
+    height: 80px; /* Adjust the height to your preference */
+    border-radius: 50%;
+    
+    object-fit: cover;
+    margin: auto ; /* Adjust the margin to your preference */
+    margin-bottom: 10px;
+  }
+  
+  .testimonial-text {
+        font-size: 1em;
+        font-weight: 500;
+        line-height: 1.5;
+        color: #333;
+  }
+  .testimonial-author {
+    margin-top: 0.5em;
+  }
+  
+  .testimonial-name {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 5px;
+  }
+  
+  .testimonial-location {
+    font-size: 1em;
+    font-weight: bold;
+    color: #666;
+  }
+  
+  /* Slider container */
+  .slider-container {
+    overflow: hidden;
+  }
+  
+  /* Navigation buttons */
+  .prev-button,
+  .next-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 24px;
+    cursor: pointer;
+    color: #333;
+  }
+  
+  .prev-button {
+    left: 10px;
+  }
+  
+  .next-button {
+    right: 10px;
+  }
+  
+  /* Dots for slide indicators */
+  .slick-dots {
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    right: 0;
+    text-align: center;
+  }
+  
+  .slick-dots li {
+    display: inline-block;
+    margin: 0 5px;
+  }
+  
+  .slick-dots li button {
+    width: 12px;
+    height: 12px;
+    border: 2px solid #333;
+    border-radius: 50%;
+    background-color: transparent;
+    cursor: pointer;
+  }
+  
+  .slick-dots li.slick-active button {
+    background-color: #333;
+  }
+  
+  @media (max-width:800px) {
+    .testimonial-slider {
+      width: 98%;
+      
+    }
+    .testimonial {
+      max-width: 350px;
+      margin: 1em 0.2em;
+    }
+  }

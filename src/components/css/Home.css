@@ -1,0 +1,33 @@
+
+.image{
+    margin: auto;
+    overflow: hidden;
+}
+.image img{
+    height: 600px;
+}
+.text-center{
+    overflow: hidden;
+}
+.heading{
+    font-size : 75px !important;
+    width: 50vw !important;
+    padding-left: 60px !important;
+    margin: auto;
+    text-align: center;
+    overflow: hidden;
+}
+@media (max-width: 1060px) {
+    .heading{
+        width: 100vw !important;
+    }
+}
+
+@media (max-width: 720px) {
+    .image img{
+        height: 450px;
+    }
+    .heading{
+        font-size : 60px !important;
+    }
+}

@@ -1,0 +1,71 @@
+/* Classes.css */
+  .classes{
+    margin:20px 20px 0 60px;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  }
+  .classes h2 {
+    text-align: center;
+    overflow: hidden;
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.classes ul {
+    list-style: none;
+}
+
+.classes li {
+    margin-bottom: 20px;
+}
+
+.class-item {
+    display: flex;
+    align-items: flex-start; /* Align items to the top */
+  }
+  
+  .class-image{
+    width: 500px;
+    margin: 0 10px;
+  }
+  .class-image img {
+    overflow: hidden;
+    width: 250px; /* Limit the image width */
+    border-radius: 20px;
+    
+  }
+  
+  .class-info h3 {
+    overflow: hidden;
+    font-size: 20px;
+    color: #333;
+  }
+  
+  .class-info p {
+    font-size: 16px;
+    color: #666;
+  }
+  
+  /* Adjust styles for smaller screens */
+  @media (max-width: 900px) {
+    .class-item {
+      flex-direction: column; /* Stack items vertically on smaller screens */
+      align-items: center; /* Center items vertically */
+      text-align: center; /* Center text */
+    }
+  
+    .class-image img {
+      margin-bottom: 10px; /* Add space below the image */
+    }
+  
+    .class-info {
+      margin-top: 10px; /* Add space above the text */
+    }
+  }
+  
+
+
+  

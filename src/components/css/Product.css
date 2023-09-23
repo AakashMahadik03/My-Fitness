@@ -1,0 +1,23 @@
+.navbar{
+  margin: 10px auto;
+  width: 85%;
+  border-radius: 15px;
+  z-index: 9;
+}
+.gymEquipment,.supplements,.workoutAccessories,.gymMerchandise, .wearableFitness{
+  padding-top: 75px;
+}
+.gymEquipment h2,.supplements h2,.workoutAccessories h2,.gymMerchandise h2,.wearableFitness h2{
+  overflow: hidden;
+  text-align: center;
+}
+.smooth-scroll {
+  scroll-behavior: smooth;
+}
+
+
+@media (max-width: 950px) {
+  .navbar{
+    width: 65%;
+  }
+}
